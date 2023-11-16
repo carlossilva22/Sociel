@@ -1,0 +1,21 @@
+<sociel-menus></sociel-menus>
+
+<section class="categorias">
+  <div *ngFor="let produto of produtos">
+    <ng-container *ngIf="getCrianca(produto)">
+      <div class="container">
+        <div class="cartao" routerLink="/details/{{ produto.id }}">
+          <img [src]="produto.image" alt="produto" />
+
+          <div class="text">
+            <p>
+              {{ produto.modelo }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>
+
+<sociel-footer-page></sociel-footer-page>

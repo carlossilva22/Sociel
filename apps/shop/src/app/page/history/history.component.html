@@ -1,0 +1,38 @@
+<sociel-menus></sociel-menus>
+
+<div id="fabrica">
+  <div class="container1">
+    <div class="cta">
+      <div class="cta-text-box">
+        <h2 class="heading-secondary">Fábrica Sociel, Lda</h2>
+        <p class="cta-text">
+          A Sociel nasce em 1964 com o fabrico de armações para óculos em
+          celulóide e acetato. José Maria dos Santos Rodrigues e Manuel Fernando
+          dos Santos Rodrigues integram como funcionários os quadros da firma,
+          nos anos 1968 e 1970 respectivamente. Em 1981/82 a empresa adquire uma
+          nova gerência composta por José Maria dos Santos Rodrigues, Manuel
+          Fernando dos Santos Rodrigues e António Júlio Antunes, que se mantém
+          até ao momento, fabricando as marcas Sociel, Rodsant e Kanali.
+          Actualmente, os dois primeiros assumem a gerência da Sociel. O ano de
+          1995 foi de grande expansão para a empresa, são criadas novas
+          instalações devido à necessidade de maiores infra-estruturas dado o
+        </p>
+      </div>
+      <div class="cta-img-box" role="img" aria-label="Imagem"></div>
+    </div>
+  </div>
+</div>
+<sociel-galaria-principal></sociel-galaria-principal>
+<div id="oculos" class="video">
+  <div *ngFor="let video of videoList">
+    <img [src]="video.title" *ngIf="mostrar" class="lightbox" />
+    <youtube-player [videoId]="video.videoId" [height]="315" [width]="560"
+      ><!--[height]="315" [width]="560"-->
+    </youtube-player>
+  </div>
+</div>
+
+<div class="empresa">
+  <img src="./assets/logotipo50.png" alt="" />
+  <img class="empresa-logo" src="./assets/portugal_2020.png" alt="" />
+</div>
