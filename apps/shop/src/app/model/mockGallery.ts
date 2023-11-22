@@ -11,10 +11,6 @@ export const Gallarias: Gallery[] = [
     image: './assets/galaria/DSC0027.png',
   },
   {
-    id: 3,
-    image: './assets/galaria/DSC0031.png',
-  },
-  {
     id: 4,
     image: './assets/galaria/DSC0035.png',
   },
@@ -76,11 +72,6 @@ export const Gallarias: Gallery[] = [
   },
 
   {
-    id: 17,
-    image: './assets/galaria/DSC0096.png',
-  },
-
-  {
     id: 18,
     image: './assets/galaria/DSC0102.png',
   },
@@ -130,10 +121,6 @@ export const Gallarias: Gallery[] = [
     id: 28,
     image: './assets/galaria/DSC0165.png',
   },
-  {
-    id: 29,
-    image: './assets/galaria/DSC0166.png',
-  },
 
   {
     id: 30,
@@ -159,16 +146,8 @@ export const Gallarias: Gallery[] = [
   },
 
   {
-    id: 35,
-    image: './assets/galaria/DSC0189.png',
-  },
-  {
     id: 36,
     image: './assets/galaria/DSC0190.png',
-  },
-  {
-    id: 37,
-    image: './assets/galaria/DSC0195.png',
   },
 
   {
@@ -179,14 +158,7 @@ export const Gallarias: Gallery[] = [
     id: 40,
     image: './assets/galaria/DSC0204.png',
   },
-  {
-    id: 41,
-    image: './assets/galaria/DSC0206.png',
-  },
-  {
-    id: 42,
-    image: './assets/galaria/DSC0208.png',
-  },
+
   {
     id: 43,
     image: './assets/galaria/DSC0214.png',

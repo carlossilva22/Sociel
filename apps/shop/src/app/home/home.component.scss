@@ -1,6 +1,31 @@
 section {
 }
 
+.icon-fixo {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  z-index: 100;
+
+  & .fixo {
+    display: flex;
+    flex-direction: column;
+
+    & i {
+      width: 50px;
+      color: black;
+      font-size: 3rem;
+      text-align: center;
+      background: #91d1e8;
+      padding: 20%;
+    }
+
+    & i:hover {
+      color: gray;
+    }
+  }
+}
+
 .better {
   & img {
     position: absolute;
