@@ -86,18 +86,24 @@ html {
 }
 
 @media screen and (max-width: 1200px) {
-  .cartao {
-    padding: 0;
-  }
-
   .galaria {
-    justify-content: space-between;
+    margin: 0 10%;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 977px) {
   .galaria {
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  .galaria {
+    justify-content: center;
   }
 }

@@ -57,3 +57,21 @@ a {
   box-shadow: none;
   transform: translateY(0);
 }
+
+@media screen and (max-width: 1099px) {
+  h3 {
+    font-size: 14px;
+  }
+  .button-8 {
+    padding: 3px 5px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h3 {
+    font-size: 12px;
+  }
+  .button-8 {
+    width: 60%;
+  }
+}

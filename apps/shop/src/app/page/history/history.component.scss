@@ -2,7 +2,7 @@
   margin: 10% auto 5% auto;
   gap: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   max-width: 1300px;
 
@@ -113,5 +113,24 @@
   .video {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #fabrica {
+    & .cta {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .cta-text {
+      text-align: justify;
+    }
+
+    #oculos {
+      display: none;
+    }
   }
 }
