@@ -43,3 +43,15 @@ p {
   padding: 2% 0;
   text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+  .img-container {
+    margin: 15% auto;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .img-container {
+    margin: 25% auto;
+  }
+}
