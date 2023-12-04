@@ -98,7 +98,8 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+//1200px
+@media screen and (max-width: 75em) {
   .container1 {
     padding: 0;
     margin-top: 10%;
@@ -116,7 +117,8 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+//992px
+@media screen and (max-width: 62em) {
   #fabrica {
     & .cta {
       grid-template-columns: 1fr;
@@ -124,7 +126,8 @@
     }
   }
 
-  @media screen and (max-width: 576px) {
+  //576px
+  @media screen and (max-width: 37em) {
     .cta-text {
       text-align: justify;
     }

@@ -57,8 +57,8 @@ a {
   box-shadow: none;
   transform: translateY(0);
 }
-
-@media screen and (max-width: 1099px) {
+//1099px
+@media screen and (max-width: 69em) {
   h3 {
     font-size: 14px;
   }
@@ -67,7 +67,8 @@ a {
   }
 }
 
-@media screen and (max-width: 720px) {
+//720px
+@media screen and (max-width: 45em) {
   h3 {
     font-size: 12px;
   }

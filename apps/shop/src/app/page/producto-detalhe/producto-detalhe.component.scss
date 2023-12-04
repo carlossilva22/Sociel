@@ -4,7 +4,7 @@
 .img-container {
   width: 75%;
   height: 100%;
-  margin: 8% auto;
+  margin: 0 auto 8% auto;
 
   & img {
     width: 100%;
@@ -27,13 +27,15 @@
 }
 
 .btn-info {
-  background-color: darkorange;
+  background-color: #c8c8c8;
   border: none;
-  color: wheat;
+  color: black;
+  margin-top: 10%;
+  margin-left: 5%;
 }
 
 .btn-info:hover {
-  background-color: burlywood;
+  background-color: #efeded;
 }
 
 h2 {
@@ -44,13 +46,15 @@ p {
   text-align: justify;
 }
 
-@media screen and (max-width: 768px) {
+//768px
+@media screen and (max-width: 48em) {
   .img-container {
     margin: 15% auto;
   }
 }
 
-@media screen and (max-width: 485px) {
+//485px
+@media screen and (max-width: 29em) {
   .img-container {
     margin: 25% auto;
   }

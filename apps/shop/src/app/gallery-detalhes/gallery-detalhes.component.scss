@@ -13,13 +13,14 @@ section {
   }
 }
 
-@media screen and (max-width: 992px) {
+//992px
+@media screen and (max-width: 58em) {
   section {
     padding-top: 15%;
   }
 }
-
-@media screen and (max-width: 768px) {
+//768px
+@media screen and (max-width: 48em) {
   section {
     padding-top: 30%;
   }

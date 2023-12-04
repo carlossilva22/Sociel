@@ -92,17 +92,19 @@ html {
   }
 }
 
-@media screen and (max-width: 992px) {
+//992px
+@media screen and (max-width: 58em) {
 }
-
-@media screen and (max-width: 977px) {
+//977px
+@media screen and (max-width: 62em) {
   .galaria {
     justify-content: center;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 704px) {
+//704px
+@media screen and (max-width: 44em) {
   .galaria {
     justify-content: center;
   }

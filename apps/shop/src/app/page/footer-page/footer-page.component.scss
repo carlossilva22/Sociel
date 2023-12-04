@@ -31,7 +31,7 @@ footer {
 
     & img {
       display: flex;
-      margin: 20% auto 0 auto;
+      margin: 30% auto 0 auto;
     }
 
     & .icon {
@@ -86,9 +86,27 @@ footer {
   .grid_item_7 {
     //border: 1px solid rgb(125, 249, 170);
     grid-column-start: 2;
-    grid-column-end: -1;
+    grid-column-end: 6;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 6;
+  }
+
+  .grid_item_8 {
+    //border: 1px solid rgb(125, 249, 170);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
+
+  ul {
+    list-style: none;
+    & li {
+      display: inline-block;
+    }
+    & li:first-child {
+      padding-right: 3%;
+    }
   }
 
   h3 {
@@ -125,6 +143,7 @@ footer {
 
   .fotter_p p {
     font-size: 1.1rem;
+    align-items: center;
   }
 
   .autor {
@@ -133,12 +152,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 992px) {
+//962px
+@media screen and (max-width: 61em) {
   footer {
     padding: 2rem 1rem;
     .grid--footer {
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5, 5vw);
+      grid-template-rows: repeat(6, 5vw);
     }
 
     .grid_item_1 {
@@ -188,6 +208,14 @@ footer {
     .grid_item_7 {
       //border: 1px solid rgb(125, 249, 170);
 
+      grid-column-start: 2;
+      grid-column-end: -1;
+      grid-row-start: 6;
+      grid-row-end: 7;
+    }
+
+    .grid_item_8 {
+      //border: 1px solid rgb(125, 249, 170);
       grid-column-start: 4;
       grid-column-end: 5;
       grid-row-start: 3;
@@ -200,7 +228,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 773px) {
+//784px
+@media screen and (max-width: 49em) {
   footer {
     .grid--footer {
       grid-template-columns: repeat(3, 1fr);
@@ -263,10 +292,19 @@ footer {
       grid-row-start: 8;
       grid-row-end: 10;
     }
+
+    .grid_item_8 {
+      //border: 1px solid rgb(125, 249, 170);
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 8;
+      grid-row-end: 10;
+    }
   }
 }
 
-@media screen and (max-width: 563px) {
+//563px
+@media screen and (max-width: 36em) {
   footer {
     .grid--footer {
       grid-template-columns: repeat(1, 1fr);
@@ -320,8 +358,15 @@ footer {
 
       grid-column-start: 1;
       grid-column-end: 2;
-      grid-row-start: 19;
-      grid-row-end: 21;
+      grid-row-start: 20;
+      grid-row-end: 22;
+    }
+    .grid_item_8 {
+      //border: 1px solid rgb(125, 249, 170);
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 18;
+      grid-row-end: 19;
     }
   }
 }

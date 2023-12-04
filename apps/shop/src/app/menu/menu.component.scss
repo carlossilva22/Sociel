@@ -58,22 +58,31 @@ button i {
   cursor: pointer;
   color: #696767;
 }
-
-@media screen and (max-width: 768px) {
+//768px
+@media screen and (max-width: 48em) {
   .slide-wrapper {
     margin-left: 70%;
   }
 }
-
-@media screen and (max-width: 576px) {
+//576px
+@media screen and (max-width: 36em) {
   button i {
     //border: 1px solid white;
     margin-left: 85%;
   }
 }
 
-@media screen and (max-width: 465px) {
+//465px
+@media screen and (max-width: 30em) {
   .slide-wrapper {
     margin-left: 10%;
+  }
+}
+
+//432px
+@media screen and (max-width: 27em) {
+  button i {
+    //border: 1px solid white;
+    margin-left: 55%;
   }
 }

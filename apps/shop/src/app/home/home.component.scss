@@ -59,29 +59,6 @@ section {
   }
 }
 
-/*#fabrica {
-  padding: 5% 20% 5% 20%;
-  margin: 2% auto 10% auto;
-  font-family: 'Poppins', sans-serif;
-  //background-color: #ecded9;
-  box-shadow: 1px 1px 40px gray;
-  z-index: 10;
-  & h2 {
-    font-size: 1.8rem;
-    color: black;
-    padding-bottom: 3%;
-  }
-  & p {
-    text-align: justify;
-  }
-  & i {
-    font-size: 200%;
-    margin-top: -2%;
-    float: right;
-    cursor: pointer;
-  }
-}*/
-
 #oculos {
   margin: 0% 5% 5% 5%;
 
@@ -92,5 +69,23 @@ section {
   flex-wrap: wrap;
   & img {
     width: 400px;
+  }
+}
+
+//920px
+@media screen and (max-width: 58em) {
+  .centro {
+    & img {
+      width: 30%;
+    }
+  }
+}
+
+//590px
+@media screen and (max-width: 37em) {
+  .centro {
+    & img {
+      width: 40%;
+    }
   }
 }

@@ -80,7 +80,8 @@ li.dropdown {
   display: block;
 }
 
-@media (max-width: 768px) {
+//768px
+@media (max-width: 48em) {
   .container {
     display: block;
     justify-content: center;
@@ -93,7 +94,9 @@ li.dropdown {
     text-align: center;
   }
 }
-@media (max-width: 576px) {
+
+//576px
+@media (max-width: 36em) {
   li {
     font-size: 10px;
     margin-left: 5%;
